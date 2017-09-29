@@ -11,7 +11,7 @@ const router = AppNavigator.router
 const getStateForScreen = (screenName, state) =>
     router.getStateForAction(router.getActionForPathAndParams(screenName), state)
 
-const initialState = getStateForScreen(Screens.HOME)
+const initialState = getStateForScreen(Screens.LOGIN)
 
 export function reducer(state = initialState, action) {
     return createNextstate(state, action) || state;
