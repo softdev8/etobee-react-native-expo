@@ -1,5 +1,5 @@
-#React Navite User App Etobee
-this is guideline for build userapp Etobee from scratch
+#React Native User App
+this is guideline for build userapp from scratch
 
 ## Table of Contents
 
