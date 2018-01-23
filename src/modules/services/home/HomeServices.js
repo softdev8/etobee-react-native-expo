@@ -58,6 +58,13 @@ export function showError(error) {
     }
 }
 
+export function showErrors(errors) {
+    return {
+        type: SUMMARY_FETCH_ERRORS,
+        error: errors
+    }
+}
+
 export function fetchSummary() {
     return (dispatch, getState, { api }) => {
 
