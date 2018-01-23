@@ -39,3 +39,4 @@ export async function requestNearby(latitude, longitude) {
         console.error(error);
       }
 }
+    
