@@ -2,7 +2,7 @@ import facebookConfig from '@config/facebook'
 
 export async function login() {
     const facebookResponse = await Expo.Facebook.logInWithReadPermissionsAsync(facebookConfig.appId, {
-        permissions: ["public_profile", "email"]
+        permissions: ["public_profile", "email", "location(location)"]
     })
     const { type, token } = facebookResponse
 
