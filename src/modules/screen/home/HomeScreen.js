@@ -78,7 +78,12 @@ const styles = EStyleSheet.create({
     scrollView: {
         paddingVertical: 10,
         alignItems: 'center'
-    }
+    },
+    mainButton: {
+        width: 120,
+        height: 45,
+        backgroundColor: '$frog_green',
+        padding: 5,
 })
 
 const mapStateToProps = state => {
