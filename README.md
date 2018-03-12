@@ -664,3 +664,6 @@ personally we prefer not to used any native component just make it pure react-na
 
 
 **[⬆ back to top](#table-of-contents)**
+
+
+History: removed package-lock.json because security issue
