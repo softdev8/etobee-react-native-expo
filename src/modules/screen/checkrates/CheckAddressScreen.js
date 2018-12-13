@@ -53,7 +53,7 @@ class CheckAddressScreen extends React.Component {
                     <TextInput
                         style = {styles.textInput}
                         autoFocus = {true}
-                        placeholder = 'Tulis alamat disini...'
+                        placeholder = 'Enter destination address...'
                         placeholderTextColor = '#A8A8A8'
                         onChangeText={(text) => this.onChangeText(text)}
                         value={this.state.text}
