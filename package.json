@@ -36,6 +36,6 @@
     "redux-logger": "^3.0.6",
     "redux-persist": "^4.9.1",
     "redux-thunk": "^2.2.0",
-    "qs": "^5.2.0"
+    "qs": "^6.9.3"
   }
 }
